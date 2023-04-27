@@ -1,0 +1,175 @@
+html, body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    background-image: url('https://s1.1zoom.me/big0/638/Milky_Way_Sky_Night_447884.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+   
+}
+.orizon{
+    color: white;
+    display: flex;
+    align-items: center;
+
+
+
+}
+header{
+    background-color: rgb(85, 35, 132);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    z-index: 2;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    width: 320px;
+}
+header h1{
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    font-weight: 100;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+main{
+    width: 100%;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://s1.1zoom.me/big0/638/Milky_Way_Sky_Night_447884.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    color: white;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+}
+main p{
+    width: 75%;
+    font-size: x-large;
+    text-align: justify;
+    font-family: 'Calibri Bold', serif;
+    margin: 15px;
+    justify-content: center;
+    color: white;
+}
+.img1{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0px;
+}
+footer{
+    width: 100%;
+    background-image: url('https://s1.1zoom.me/big0/638/Milky_Way_Sky_Night_447884.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+footer h1{
+    color: white;
+}
+#inicio, #projetos, #contato{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.projetos{
+    display: flex;
+    justify-content: space-around;
+}
+.projetos :first-child{
+    width: 500px;
+
+}
+.projetos img{
+    filter: grayscale(100%);
+    margin: 10px;
+    width: 400px;
+    border-radius: 20px;
+    border: solid rgb(0, 0, 0) 0px;
+    
+}
+.projetos img:hover{
+    z-index: 1;
+   
+    filter: grayscale(0%);
+    scale: 1.5;
+    transition: 1s;
+}
+
+
+form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+#nome,#email{
+    
+    width: 300px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+   background-color: aliceblue;
+    font-family: 'Calibri Bold', sans-serif
+    
+}
+#mensagem{
+    margin-top: 10px;
+    font-family: 'Calibri Bold', serif;
+}
+#enviar{
+    font-family: 'Calibri Bold', serif;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+}
+label{
+    font-family: 'Calibri Bold', serif;
+    margin: 10px;
+}
+#contato div img{
+    width: 60px;
+    height: 60px;
+
+    background-image: url('https://s1.1zoom.me/big0/638/Milky_Way_Sky_Night_447884.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 10px;
+}
+.name{
+    color: white;
+}
