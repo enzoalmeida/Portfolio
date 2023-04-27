@@ -118,13 +118,7 @@ footer h1{
     border: solid rgb(0, 0, 0) 0px;
     
 }
-.projetos img:hover{
-    z-index: 1;
-   
-    filter: grayscale(0%);
-    scale: 1.5;
-    transition: 1s;
-}
+
 
 
 form{
